@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+
+
+}
+nav{
+	width: 100%;
+	overflow: auto;
+	background: black;
+}
+ul{
+	padding: 0;
+	
+	margin: 0 0 0 250px;
+	list-style: none;
+}
+
+
+
+li{
+	float: left;
+}
+li a {
+	width: 100px;
+	display: block;
+	padding: 25px 50px;
+	text-decoration: none ;
+	font-family: "arial";
+	color: white;
+	text-align: center;
+
+
+}
+li a:hover{ 
+	background: ghostwhite;
+	color: darkred;
+	transition: 2.8s;
+ }
+
+ .logo img{
+ 	position: absolute;
+ 	margin-top: 0px;
+ 	margin-left: 10px;
+ 	width: 200px;
+
+
+ }
+
+
+ .image img {
+
+ 	width: 100%;
+
+ }
+ 

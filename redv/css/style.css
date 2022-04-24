@@ -1,0 +1,64 @@
+body{
+
+	background-image: url("../images/background1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vh;
+
+
+
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	text-align: right ;
+	margin-right: -350px;
+	margin-top: 300px;
+	
+
+}
+
+.btn{
+	border: 3px solid #FFFFFFFF;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family:"arial";
+	font: #ffffff;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+
+
+
+}
+.btn1{
+	color: #FFFFFF;
+}
+.btn:hover {
+	color:#000;
+}
+.btn::before{
+	content: ;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: -1;
+	transition: 0.8s;
+
+
+}
+
+.btn1:before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+
+}
+.btn1:hover::before
